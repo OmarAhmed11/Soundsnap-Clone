@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(68, 62, 62);
+}
+
+/* start Registration page */
+
+.regparent {
+    width: 500px;
+    text-align: center;
+    margin: 100px 0 0 500px;
+    padding-top: 50px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 10%;
+}
+.regparent .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.regparent input[type='text'], .regparent input[type='password'] {
+    width:360px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.regparent span {
+    color:#50BF90
+}
+.regparent input[type='submit'] {
+    width: 360px;
+    height: 50px;
+    background-color: #50BF90;
+    color: white;
+    margin-top:10px
+}
+.regparent .log {
+    margin: 10px 0 20px 0;
+}
+.regparent .log a{
+    text-decoration: none;
+}
+/* End Registration page */
